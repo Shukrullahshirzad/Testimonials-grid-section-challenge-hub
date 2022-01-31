@@ -1,0 +1,79 @@
+:root{
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsla(0, 0%, 100%, 0.7);
+  
+  /*### Neutral   */
+  
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+  --base-font-size: 13px;
+}
+
+/* globals */
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--light-grayish-blue);
+  font-family: 'Barlow', sans-serif;
+  /*width: 375px;*/
+  display: grid;
+  grid-template-columns: 360px;
+  grid-gap: 25px;
+  font-size: var(--base-font-size);
+
+
+}
+header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile-img{
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid var(--moderate-violet);
+  margin-right: 20px;
+}
+header .name p{
+  font-weight: 700;
+}
+span{
+  display: block;
+  margin-top: 5px;
+  font-weight: normal;
+}
+section{
+  padding: 30px; 
+  border-radius: 10px;
+}
+.bold-para{
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.daneil-clifford{
+  background-color: var(--moderate-violet);
+  color: var(--white);
+}
+.daneil-clifford .light-para{
+  color:var(--off-white);
+}
+.jonathan-walters{
+  background-color: var(--very-dark-grayish-blue);
+  color: var(--white);
+}
+.jeanette-harmon{
+  background-color: var(--white);
+}
+.patrick-abrams{
+  background-color: var(--very-dark-blackish-blue);
+}
+.kira-whittle{
+  background-color: var(--white);
+}
